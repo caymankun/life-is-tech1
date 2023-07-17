@@ -1,0 +1,246 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    cursor: url(./img/csss.png) , auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300&display=swap');
+html,body{
+    scroll-snap-type: y mandatory;
+    
+}#body{
+    height: 100vh;
+    width: 100vw;
+    scroll-behavior: initial;
+    scroll-snap-type: y mandatory;
+}
+.base{
+    scroll-snap-align: center;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    width: 100vw;
+}
+#d1{
+    background-color: red;
+    transition: 1s;
+}
+#d2{
+    background-color: orange;
+    transition: 1s;
+
+}
+#d3{
+    background-color: yellow;
+    transition-timing-function: cubic-bezier(.81,1.05,.06,.92);
+    transition: 1s;
+    width: 100vw;
+}
+#d4{
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#d5{
+    background-color: green;
+}
+.imgedd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    flex-wrap: wrap;
+}
+.img21p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    flex-wrap: wrap;
+}
+#d6{
+    background-color: mediumspringgreen;
+}
+#d7{
+    background-color: darkcyan;
+}
+#d8{
+   background-color: blue;
+}
+#d9{
+    background-color: darkblue;
+}
+#d10{
+    background-color: purple;
+}
+#d11{
+    background-color: deeppink;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.pear{
+    display: flex;
+}
+button{
+    animation: glass 3s infinite;
+    padding: 30px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+@keyframes glass{
+    0%{
+        text-shadow: -3px -1px aqua, 3px 1px deeppink;
+        box-shadow: -5px -3px aqua, 5px 3px deeppink;
+    }
+    50%{
+        text-shadow: 3px 1px aqua, -3px -1px deeppink;
+        box-shadow: 5px 3px aqua, -5px -3px deeppink;
+    }
+    100%{
+        text-shadow: -3px -1px aqua, 3px 1px deeppink;
+        box-shadow: -5px -3px aqua, 5px 3px deeppink;
+    }
+}
+.imgedd{
+    animation: glass 3s infinite;
+    width: auto;
+}
+.imgedd2{
+    animation: glass 3s 600ms infinite;
+}
+.img21p{
+    animation: glass 3s 400ms infinite;
+    width: auto;
+}
+.img21p2{
+    animation: glass 3s 200ms infinite;
+}
+#d7 h1{
+    animation: glass 3s infinite;
+}
+#d7:active{
+    transform: rotate(180deg);
+}
+#d1:active{
+    transform: scale(3, 1);
+    background-color: darkred;
+    transition: 1s;
+}
+#d2:active{
+    transform-origin: 50% 100%;
+    transform: scaleX(1.99);
+    height: 0px;
+}
+#d3:active{
+    transition-timing-function: cubic-bezier(.81,1.05,.06,.92);
+    transition: 1s;
+    background-color: goldenrod;
+}
+.basejj{
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 100vw;
+    color: black;
+}
+.rfew{
+    display: none;
+}
+#d6{
+    position: relative;
+
+}
+.drag-and-drop {
+    cursor: move;
+    position: absolute;
+    z-index: 1000;
+}
+
+.drag {
+    z-index: 1001;
+}
+
+#s1{
+    left: 40px;
+}
+#s2{
+    left: 80px;   
+}
+#s3{
+    left: 120px;
+}
+#s4{
+    left: 160px;
+}
+#s5{
+    left: 200px;
+}
+#s6{
+    left: 240px;
+}
+#s7{
+    left: 280px;
+}
+#s8{
+    left: 320px;
+}
+#s9{
+    left: 360px;
+}
+#s10{
+    left: 400px;
+}
+#s11{
+    left: 440px;
+}
+#s12{
+    left: 480px;   
+}
+#s13{
+    left: 520px;
+}
+#d6 p,b{
+    animation: glass 3s 600ms infinite;
+    background-color: black;
+}
+#d8{
+    position: relative;
+}
+#oem{
+    padding: 10px;
+    width: 500px;
+    height: 250px;
+    background-color: black;
+    overflow :scroll;
+    scroll-snap-type: y mandatory;
+}
+.scd{
+    display: flex;
+    scroll-snap-align: center;
+}
+#d9:active{
+    color: yellow;
+}
+#d11{
+
+}
